@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a594fcb-e7fc-4769-b862-08af5f48eece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +42,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,17 +56,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Dialogs" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\NewPost" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\Post" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\NavBar" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Header" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\NewPost" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -118,7 +114,9 @@
       <workItem from="1575631898980" duration="31000" />
       <workItem from="1575631979734" duration="2797000" />
       <workItem from="1575896082984" duration="2730000" />
-      <workItem from="1575971085707" duration="10477000" />
+      <workItem from="1575971085707" duration="12615000" />
+      <workItem from="1576067656168" duration="7378000" />
+      <workItem from="1576219358619" duration="3742000" />
     </task>
     <servers />
   </component>
@@ -139,6 +137,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2883" y="130" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1576223665094">
+      <screen x="2560" y="0" width="1366" height="718" />
+    </state>
+    <state x="2883" y="130" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1576223665094" />
     <state x="705" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575631948880">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -151,10 +153,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="198" key="SettingsEditor/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1575479958507" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575972597685">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1576220629079">
+      <screen x="2560" y="0" width="1366" height="718" />
     </state>
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1575972597685" />
-    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1575896813896" />
+    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1576220629079" />
   </component>
 </project>
