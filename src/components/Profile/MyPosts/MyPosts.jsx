@@ -5,11 +5,13 @@ import Post from "./Post/Post";
 
 const MyPosts = () => {
     return (
-        <div className={classes.posts}>
-            My posts
+        <div className={classes.postBlock}>
+            <h3>My posts</h3>
             <NewPost/>
-            <Post text = 'Hello, world' likesCount ='15'/>
-            <Post text = 'My name is Lena' likesCount='30'/>
+            <div className={classes.posts}>
+                <Post text='Hello, world' likesCount='15'/>
+                <Post text='My name is Lena' likesCount='30'/>
+            </div>
         </div>
     )
 };
