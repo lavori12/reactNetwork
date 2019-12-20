@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a594fcb-e7fc-4769-b862-08af5f48eece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +117,8 @@
       <workItem from="1576067656168" duration="7378000" />
       <workItem from="1576219358619" duration="5738000" />
       <workItem from="1576666388970" duration="13377000" />
+      <workItem from="1576768989049" duration="744000" />
+      <workItem from="1576770549841" duration="2371000" />
     </task>
     <servers />
   </component>
@@ -163,10 +159,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="198" key="SettingsEditor/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1575479958507" />
-    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1576666953320">
+    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1576770710476">
       <screen x="2560" y="0" width="1366" height="718" />
     </state>
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1575972597685" />
-    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1576666953320" />
+    <state x="3041" y="245" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1576770710476" />
   </component>
 </project>
