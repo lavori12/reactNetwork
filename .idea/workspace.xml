@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a594fcb-e7fc-4769-b862-08af5f48eece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/Dialog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +59,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\redux" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\NavBar" />
+      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Dialogs\Dialog" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Dialogs\Message" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Dialogs" />
       <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\NewPost" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Profile" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\NavBar" />
-      <recent name="C:\Users\Lena\Desktop\JavaScript\react\network\src\components\Header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -126,7 +126,9 @@
       <workItem from="1576770549841" duration="2371000" />
       <workItem from="1576816102309" duration="297000" />
       <workItem from="1576939830583" duration="4022000" />
-      <workItem from="1577338686266" duration="598000" />
+      <workItem from="1577338686266" duration="697000" />
+      <workItem from="1578751612200" duration="77000" />
+      <workItem from="1578751893004" duration="5884000" />
     </task>
     <servers />
   </component>
@@ -167,11 +169,15 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="198" key="SettingsEditor/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1575479958507" />
-    <state x="481" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1577340050287">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578751894453">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="481" y="248" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577340050287" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1576944503926" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1578751894453" />
     <state x="3041" y="245" key="com.intellij.ide.util.TipDialog/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1576770710476" />
+    <state x="2906" y="39" width="672" height="678" key="search.everywhere.popup" timestamp="1578762167263">
+      <screen x="2560" y="0" width="1366" height="718" />
+    </state>
+    <state x="2906" y="39" width="672" height="678" key="search.everywhere.popup/2560.0.1366.718/0.0.2048.1112@2560.0.1366.718" timestamp="1578762167263" />
   </component>
 </project>
