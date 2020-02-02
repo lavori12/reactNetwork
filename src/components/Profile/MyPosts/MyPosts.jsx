@@ -8,9 +8,9 @@ const MyPosts = (props) => {
     return (
         <div className={classes.postBlock}>
             <h3>My posts</h3>
-            <NewPost/>
+            <NewPost  addPost={props.addPost} newPostText={props.newPostText} updateNewPostText = {props.updateNewPostText}/>
             <div className={classes.posts}>
-                {props.postsData.map(a => <Post id={a.id} text = {a.text} likesCount = {a.likesCount}/>)}
+                {props.postsData.map(a => <Post key={a.id} id={a.id} text = {a.text} likesCount = {a.likesCount}/>)}
             </div>
         </div>
     )

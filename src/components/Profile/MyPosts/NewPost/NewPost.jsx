@@ -1,14 +1,24 @@
 import React from 'react';
-//import classes from './NewPost.module.css';
 
-const NewPost = () => {
+const NewPost = (props) => {
+
+    let newPostElement = React.createRef();
+
+    const onPostChange = () =>{
+        props.updateNewPostText(newPostElement.current.value);
+    };
+
+    const addPost = () => {
+        props.addPost();
+    };
+
     return (
         <div>
             <div>
-                <textarea> </textarea>
+                <textarea ref={newPostElement} onChange={onPostChange} value={props.newPostText} />
             </div>
             <div>
-                <button>Add post</button>
+                <button onClick={addPost}>Add post</button>
             </div>
         </div>
     )
