@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const rerenderEntireTree = (state) => {
-    ReactDOM.render(<App appState={state} addPost={storage.addPost.bind(storage)} updateNewPostText={storage.updateNewPostText.bind(storage)}/>, document.getElementById('root'));
+    ReactDOM.render(<App appState={state} dispatch={storage.dispatch.bind(storage)}/>, document.getElementById('root'));
 };
 
 storage.subscribe(rerenderEntireTree);
