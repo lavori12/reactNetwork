@@ -1,7 +1,7 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import storage from "./redux/store";
+import storage from "./redux/redux-store";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -10,7 +10,9 @@ const rerenderEntireTree = (state) => {
     ReactDOM.render(<App appState={state} dispatch={storage.dispatch.bind(storage)}/>, document.getElementById('root'));
 };
 
-storage.subscribe(rerenderEntireTree);
+storage.subscribe(() => {
+    rerenderEntireTree(storage.getState())
+});
 
 rerenderEntireTree(storage.getState());
 
