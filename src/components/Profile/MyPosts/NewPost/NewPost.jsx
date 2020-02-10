@@ -1,14 +1,13 @@
 import React from 'react';
-import {addPostActionCreator, updateNewPostTextActionCreator} from "../../../../redux/profile-reducer";
 
 const NewPost = (props) => {
 
     const onPostChange = (event) =>{
-        props.dispatch(updateNewPostTextActionCreator(event.target.value));
+        props.updateNewPostText(event.target.value);
     };
 
     const addPost = () => {
-        props.dispatch(addPostActionCreator());
+        props.addPost();
     };
 
     return (

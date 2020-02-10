@@ -8,7 +8,7 @@ const MyPosts = (props) => {
     return (
         <div className={classes.postBlock}>
             <h3>My posts</h3>
-            <NewPost  dispatch={props.dispatch} newPostText={props.newPostText}/>
+            <NewPost  updateNewPostText={props.updateNewPostText} addPost={props.addPost} newPostText={props.newPostText}/>
             <div className={classes.posts}>
                 {props.postsData.map(a => <Post key={a.id} id={a.id} text = {a.text} likesCount = {a.likesCount}/>)}
             </div>

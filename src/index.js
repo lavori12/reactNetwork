@@ -1,20 +1,15 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import storage from "./redux/redux-store";
-import './index.css';
+import store from "./redux/redux-store";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {Provider} from "react-redux";
 
-const rerenderEntireTree = (state) => {
-    ReactDOM.render(<App appState={state} dispatch={storage.dispatch.bind(storage)}/>, document.getElementById('root'));
-};
-
-storage.subscribe(() => {
-    rerenderEntireTree(storage.getState())
-});
-
-rerenderEntireTree(storage.getState());
+ReactDOM.render(
+    <Provider store={store}>
+        <App store={store}/>
+    </Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
